@@ -3,9 +3,9 @@
  */
 
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * Copyright (c) 2014. Tony Dw. Xia All rights reserved.
  */
+
 package debra.Framework.Transfer.JSON;
 
 import debra.Framework.Transfer.DebraTransfer;
