@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DebraResource>
+
+    <LanguageMap>
+        <English>
+            <Map id="Debra_MenuItem_Close" value="Close"/>
+            <Map id="Debra_MenuItem_About" value="About"/>
+            <Map id="Debra_MenuItem_Save" value="Save"/>
+            <Map id="Debra_Menu_File" value="File"/>
+            <Map id="Debra_Menu_Help" value="Help"/>
+
+        </English>
+        <Chinese>
+            <Map id="Debra_MenuItem_Close" value="关闭"/>
+            <Map id="Debra_MenuItem_About" value="关于"/>
+            <Map id="Debra_MenuItem_Save" value="保存"/>
+            <Map id="Debra_Menu_File" value="文件"/>
+            <Map id="Debra_Menu_Help" value="帮助"/>
+        </Chinese>
+    </LanguageMap>
+</DebraResource>

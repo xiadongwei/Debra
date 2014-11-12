@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml" id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity"
+            minHeight="-Infinity" minWidth="-Infinity" prefHeight="353.0" prefWidth="428.0">
+    <children>
+        <Button fx:id="b1" layoutX="16.0" layoutY="172.0" mnemonicParsing="false" onAction="#calcAction"
+                prefHeight="29.0" prefWidth="32.0" text="1"/>
+        <Button fx:id="b2" layoutX="56.0" layoutY="172.0" mnemonicParsing="false" onAction="#calcAction"
+                prefHeight="29.0" prefWidth="32.0" text="2"/>
+        <Button fx:id="b3" layoutX="97.0" layoutY="172.0" mnemonicParsing="false" onAction="#calcAction"
+                prefHeight="29.0" prefWidth="32.0" text="3"/>
+        <Button fx:id="b4" layoutX="16.0" layoutY="135.0" mnemonicParsing="false" onAction="#calcAction"
+                prefHeight="29.0" prefWidth="32.0" text="4"/>
+        <Button fx:id="b5" layoutX="56.0" layoutY="135.0" mnemonicParsing="false" onAction="#calcAction"
+                prefHeight="29.0" prefWidth="32.0" text="5"/>
+        <Button fx:id="b6" layoutX="97.0" layoutY="135.0" mnemonicParsing="false" onAction="#calcAction"
+                prefHeight="29.0" prefWidth="32.0" text="6"/>
+        <Button fx:id="b7" layoutX="16.0" layoutY="97.0" mnemonicParsing="false" onAction="#calcAction"
+                prefHeight="29.0" prefWidth="32.0" text="7"/>
+        <Button fx:id="b8" layoutX="56.0" layoutY="97.0" mnemonicParsing="false" onAction="#calcAction"
+                prefHeight="29.0" prefWidth="32.0" text="8"/>
+        <Button fx:id="b9" layoutX="97.0" layoutY="97.0" mnemonicParsing="false" onAction="#calcAction"
+                prefHeight="29.0" prefWidth="32.0" text="9"/>
+        <Button fx:id="empty" layoutX="16.0" layoutY="60.0" mnemonicParsing="false" onAction="#calcAction"
+                prefHeight="29.0" prefWidth="72.0" text="C"/>
+        <Button fx:id="backspace" layoutX="97.0" layoutY="60.0" mnemonicParsing="false" onAction="#calcAction"
+                prefHeight="29.0" prefWidth="72.0" text="←"/>
+        <Button fx:id="b0" layoutX="16.0" layoutY="207.0" mnemonicParsing="false" onAction="#calcAction"
+                prefHeight="29.0" prefWidth="72.0" text="0"/>
+        <Button fx:id="subtraction" layoutX="137.0" layoutY="172.0" mnemonicParsing="false" onAction="#calcAction"
+                prefHeight="29.0" prefWidth="32.0" text="-"/>
+        <Button fx:id="multiply" layoutX="137.0" layoutY="135.0" mnemonicParsing="false" onAction="#calcAction"
+                prefHeight="29.0" prefWidth="32.0" text="*"/>
+        <Button fx:id="division" layoutX="137.0" layoutY="97.0" mnemonicParsing="false" onAction="#calcAction"
+                prefHeight="29.0" prefWidth="32.0" text="/"/>
+        <Button fx:id="equal" layoutX="177.0" layoutY="207.0" mnemonicParsing="false" onAction="#calcAction"
+                prefHeight="29.0" prefWidth="32.0" text="="/>
+        <Button fx:id="dot" layoutX="96.0" layoutY="207.0" mnemonicParsing="false" onAction="#calcAction"
+                prefHeight="29.0" prefWidth="32.0" text="."/>
+        <Button id="b1" fx:id="addition" layoutX="137.0" layoutY="207.0" mnemonicParsing="false" onAction="#calcAction"
+                prefHeight="29.0" prefWidth="32.0" text="+"/>
+        <TextField fx:id="result" alignment="CENTER_RIGHT" editable="false" layoutX="14.0" layoutY="14.0"
+                   prefHeight="32.0" prefWidth="395.0" styleClass="null" text="0"/>
+        <Button fx:id="pushBuffer" layoutX="177.0" layoutY="97.0" mnemonicParsing="false" onAction="#calcAction"
+                prefHeight="29.0" prefWidth="32.0" text="&gt;"/>
+        <Button fx:id="popBuffer" layoutX="177.0" layoutY="135.0" mnemonicParsing="false" onAction="#calcAction"
+                prefHeight="29.0" prefWidth="32.0" text="&lt;"/>
+        <Button fx:id="plusMinus" layoutX="177.0" layoutY="172.0" mnemonicParsing="false" onAction="#calcAction"
+                prefHeight="29.0" prefWidth="32.0" text="±"/>
+        <ListView fx:id="listBuffer" layoutX="231.0" layoutY="60.0" prefHeight="176.0" prefWidth="178.0"/>
+        <Button fx:id="clearBuffer" layoutX="231.0" layoutY="245.0" mnemonicParsing="false" onAction="#clearBuffer"
+                prefHeight="29.0" prefWidth="178.0" text="ClearBuffer"/>
+    </children>
+</AnchorPane>

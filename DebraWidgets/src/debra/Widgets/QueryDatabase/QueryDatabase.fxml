@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity"
+            minHeight="-Infinity"
+            minWidth="-Infinity" prefHeight="362.0" prefWidth="674.0" xmlns="http://javafx.com/javafx/8">
+    <children>
+        <Label fx:id="queryLabel" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="649.0"
+               text="Database Query:"/>
+        <TextArea fx:id="sqlTextArea" layoutX="14.0" layoutY="39.0" prefHeight="307.0" prefWidth="649.0"
+                  promptText="SQL-Text"/>
+    </children>
+</AnchorPane>

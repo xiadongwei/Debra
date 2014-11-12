@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DebraResource>
+    <LanguageMap>
+        <English>
+            <Map id="QueryDatabase_ToolBar_Run" value="Run"/>
+            <Map id="QueryDatabase_Label_SQLQuery" value="Database SQL Query:"/>
+        </English>
+        <Chinese>
+            <Map id="QueryDatabase_ToolBar_Run" value="执行"/>
+            <Map id="QueryDatabase_Label_SQLQuery" value="SQL语句："/>
+        </Chinese>
+    </LanguageMap>
+</DebraResource>
