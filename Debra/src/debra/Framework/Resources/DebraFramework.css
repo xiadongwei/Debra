@@ -1,0 +1,81 @@
+/*
+ * Copyright (c) 2014. Tony Dw. Xia All rights reserved.
+ */
+
+/*
+    Document   : DebraFramework
+    Created on : Aug 22, 2012, 4:25:29 PM
+    Author     : user
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.root {
+    -fx-base: rgb(105, 176, 195);
+    -fx-background: rgb(202, 202, 202);
+    -fx-control-inner-background: rgb(186, 186, 186);
+    -fx-padding: 0px;
+    -fx-spacing: 0;
+    -fx-text-fill: rgb(186,201,201);
+}
+
+.Debra-Bottom-Pane {
+    -fx-border-color: rgba(105, 176, 195, 1);
+    -fx-border-radius: 5;
+    -fx-background-color: rgb(135, 135, 135);
+    -fx-text-fill: rgb(186,201,201);
+}
+
+.scroll-pane {
+    -fx-padding: 0;
+    -fx-background-insets: 0;
+}
+
+/* move buttom arrow up to make room for window rewsize button */
+.scroll-pane > * > .scroll-bar:vertical {
+    -fx-padding: -1.0 -1.0 12 0.0;
+}
+
+.background {
+    -fx-background-color: radial-gradient(radius 100%, rgb(220, 220, 220), rgb(70, 70, 70));
+}
+
+.tab {
+    /* -fx-background-color: linear-gradient(to top, -fx-base, derive(-fx-base,30%));*/
+}
+
+#mainBannerBar {
+    -fx-padding: 30px;
+    /*-fx-background-image: url("top-bar.png");*/
+    -fx-background-size: cover;
+    -fx-background-position: left top;
+    -fx-background-repeat: no-repeat;
+}
+
+.menu-bar {
+    -fx-border-image-source: url("mid-bar-right.png");
+    -fx-border-image-slice: 1 0 1 0 fill;
+    -fx-border-image-width: 1 0 1 0;
+    -fx-border-image-repeat: stretch;
+    -fx-padding: 0px 0px 0px 0px;
+    -fx-spacing: 0;
+    /*-fx-background-color: rgb(230,230,230);*/
+}
+
+.tool-bar:horizontal {
+    -fx-background-color: rgb(229,229,229);
+    -fx-border-color: rgb(190, 190, 190);
+    -fx-border-width: 0px 0px 1px 0px;
+    /*-fx-background-color: linear-gradient(to bottom,-fx-base, derive(-fx-base, 30%));*/
+}
+
+.button {
+    /*-fx-background-color: transparent; */
+
+}
+
+.button:hover {
+    /*-fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-color: -fx-hover-base;  */
+} 
+

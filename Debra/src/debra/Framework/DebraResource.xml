@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2014. Tony Dw. Xia All rights reserved.
+  -->
+
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<DebraResource>
+    <ContextURL value="http://127.0.0.1:8080/DebraServlet.do"/>
+    <LanguageMap>
+        <Language value="Chinese"/>
+        <English>
+            <Map id="Debra_MenuItem_Close" value="Close"/>
+            <Map id="Debra_MenuItem_Refresh" value="Refresh"/>
+            <Map id="Debra_MenuItem_About" value="About"/>
+            <Map id="Debra_Menu_File" value="File"/>
+            <Map id="Debra_Menu_Help" value="Help"/>
+            <Map id="Debra_ToolBar_ActionButton" value="Do"/>
+            <Map id="Debra_ToolBar_BackButton" value="Back"/>
+            <Map id="Debra_Widget_NoLoad_Message" value="Can not load "/>
+            <Map id="Debra_Widget_NoRight_Message" value="Do not have right "/>
+            <Map id="Debra_Widget_Loaded_Message" value=" loaded"/>
+            <Map id="Debra_Widget_NotLogin_Message" value=" Can not login "/>
+        </English>
+        <Chinese>
+            <Map id="Debra_MenuItem_Close" value="关闭"/>
+            <Map id="Debra_MenuItem_Refresh" value="刷新"/>
+            <Map id="Debra_MenuItem_About" value="关于"/>
+            <Map id="Debra_Menu_File" value="文件"/>
+            <Map id="Debra_Menu_Help" value="帮助"/>
+            <Map id="Debra_ToolBar_ActionButton" value="执行"/>
+            <Map id="Debra_ToolBar_BackButton" value="返回"/>
+            <Map id="Debra_Widget_NoLoad_Message" value="无法载入 "/>
+            <Map id="Debra_Widget_NoRight_Message" value="无法加载(无权限) "/>
+            <Map id="Debra_Widget_Loaded_Message" value=" 已载入"/>
+            <Map id="Debra_Widget_NotLogin_Message" value=" 系统未登录"/>
+        </Chinese>
+    </LanguageMap>
+</DebraResource>

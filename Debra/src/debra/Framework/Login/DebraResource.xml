@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2014. Tony Dw. Xia All rights reserved.
+  -->
+
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<DebraResource>
+
+    <LanguageMap>
+        <Language value="Chinese"/>
+        <English>
+            <Map id="Debra_Context" value="Server context : "/>
+            <Map id="Debra_LoginName" value="Login name : "/>
+            <Map id="Debra_LoginPassword" value="Password : "/>
+            <Map id="Debra_LoginButton" value="Login"/>
+        </English>
+        <Chinese>
+            <Map id="Debra_Context" value="服务器上下文 : "/>
+            <Map id="Debra_LoginName" value="用户名: "/>
+            <Map id="Debra_LoginPassword" value="密码 : "/>
+            <Map id="Debra_LoginButton" value="登录"/>
+        </Chinese>
+    </LanguageMap>
+</DebraResource>
